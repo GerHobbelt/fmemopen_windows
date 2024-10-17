@@ -12,7 +12,7 @@ a lib to provide **FILE\*** handler based on memory backend for fread,fwrite etc
 #include <stdio.h>
 #include "libfmemopen.h"
 
-int main(){
+int main(void){
 	FILE * fh;
 	char buf[1024] = "jacksonsonsosnososnsljgweoigjiedjgkdrjshnjklfcgsdntildhgd fjklhndrhpadk thiohkaerheil ghksbjd ghbjcghkwe4pt hphq tgjh";
 	//put your stuff in buffer
@@ -42,7 +42,7 @@ A bad example:
 #include <stdio.h>
 #include "libfmemopen.h"
 
-int main(){
+int main(void){
 	FILE * fh;
 	char buf[1024] = "jacksonsonsosnososnsljgweoigjiedjgkdrjshnjklfcgsdntildhgd fjklhndrhpadk thiohkaerheil ghksbjd ghbjcghkwe4pt hphq tgjh";
 	//put your stuff in buffer
@@ -70,7 +70,7 @@ int main(){
 #include <stdio.h>
 #include "libfmemopen.h"
 
-int main(){
+int main(void){
 	FILE * fh;
 	char buf[1024] = "jacksonsonsosnososnsljgweoigjiedjgkdrjshnjklfcgsdntildhgd fjklhndrhpadk thiohkaerheil ghksbjd ghbjcghkwe4pt hphq tgjh";
 	//put your stuff in buffer
